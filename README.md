@@ -1,21 +1,22 @@
-# MT-Sub Frontend
+# MT-Sub Mobile First Frontend
 
-Clean Next.js frontend for **MT-Sub**, a Nigerian data and airtime reseller platform for **Musatech Solutions Ltd**.
+A clean, mobile-first Next.js frontend for MT-Sub focused on the user purchase flow only.
 
 ## Included pages
-- Homepage
-- About
-- Pricing
-- Contact
-- Login / Register
-- User dashboard
-- Buy airtime
-- Buy data
+- Login
+- Register
+- Home dashboard
+- Buy Data
+- Buy Airtime
 - Wallet
-- Transactions
+- History
 - Profile
-- Admin dashboard
-- Admin users / transactions / networks / plans / pricing / settings
+
+## PWA basics included
+- Web manifest
+- Installable app metadata
+- Theme colors
+- Offline-friendly shell styling
 
 ## Run locally
 ```bash
@@ -23,18 +24,7 @@ npm install
 npm run dev
 ```
 
-## Production build
-```bash
-npm install
-npm run build
-npm start
-```
-
 ## Deploy to Vercel
 1. Push this folder to GitHub
 2. Import the repo into Vercel
 3. Deploy with default Next.js settings
-
-## Notes
-- This package intentionally excludes `node_modules` and `.next`
-- Add environment variables later when backend/API integration is added
